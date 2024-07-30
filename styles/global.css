@@ -1,0 +1,36 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-100: #080815;
+    --blue-200: #0E0F25;
+    --blue-300: #141534;
+    --blue-400: #1F2151;
+    --blue-500: #2F3279;
+    --blue-600: #2F34AB;
+    --blue-700: #4A5DCD;
+    --blue-800: #7D8DEC;
+    --blue-900: #B2B8DE;
+    --white: #F1F2F6;
+
+    --font-family-base: "Inter", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-size-sm: 0.75rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+}
+
+html {
+    font: var(--font-weight-regular) 16px/2 var(--font-family-base);
+}
+
+button, input, select {
+    font-family: var(--font-family-base);
+}
